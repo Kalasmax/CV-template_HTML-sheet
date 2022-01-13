@@ -1,0 +1,210 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#container{
+    zoom: 75%;
+    width: 1050px;              
+    height: 1600px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #ffffff;
+}
+#header{   
+    color: #0d111a;
+    height: 225px;
+}
+#headerImg{
+    float: left;
+}
+#profile-img{
+    width: 225px;
+    height: 225px;
+}
+#headerTxt{     
+    width: 817px;          
+    height: 225px;
+    float: right;
+    background-color: rgb(255, 224, 75);
+    font-weight: 500;   
+}
+#nameTxt{
+    font-size: 52px;
+    margin-top: 38px;
+    margin-left: 46px; 
+    word-spacing: 500px;
+    line-height: 54px;         
+}
+#professionTxt{
+    font-size: 18px;          
+    margin-left: 46px;
+    line-height: 46px;
+}
+#content{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav .selected {
+    text-decoration: underline;
+}
+.sectionHeader {
+    margin-block-start: 42px;
+    height: 26px;
+    width: fit-content;
+    background-color: #0d111a;
+    color: #eeeeee;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 2.2px;
+    text-align: center;
+}
+.sectionHeader:hover{
+    color: rgb(255, 224, 75);
+}
+.sectionBody{
+    margin-block-start: 22px;
+    font-family: 'Roboto';
+    color: #0d111af3;
+    font-size: 17px;
+    font-weight: 500;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    padding-right: 10px;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+.pTitle {
+    margin-block-start: 22px;
+    font-weight: 600;
+}
+.pTimeSpan{
+    margin-block-start: 6px;
+    color: #b9b9b9da;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.85px;
+}
+.pDesc{
+    margin-block-start: 20px;
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+}
+.pCovLetter{
+    margin-block-start: 28px;
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+.pContact{
+    margin-block-start: 20px;
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 18px;
+}
+.progTitle{
+    margin-block-start: 20px;
+    font-weight: 500;
+    color: #0d111af3;
+    font-family: 'Roboto';
+    text-align: left;
+}
+#prog1 {
+    margin-block-start: 8px;
+    background: #dee0e4;
+    height: 8px;
+    width: 250px;
+    border-radius: 1px;
+}
+#prog1:after {
+    content: '';
+    display: block;
+    background: #0d111af3;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+#prog2 {
+    margin-block-start: 8px;
+    background: #dee0e4;
+    height: 8px;
+    width: 250px;
+    border-radius: 1px;
+}
+#prog2:after {
+    content: '';
+    display: block;
+    background: #0d111af3;
+    width: 80%;
+    height: 100%;
+    border-radius: 2px;
+}
+#prog3 {
+    margin-block-start: 8px;
+    background: #dee0e4;
+    height: 8px;
+    width: 250px;
+    border-radius: 1px;
+}
+#prog3:after {
+    content: '';
+    display: block;
+    background: #0d111af3;
+    width: 40%;
+    height: 100%;
+    border-radius: 2px;
+}
+td{
+    padding-right: 33.333px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    margin-bottom: -15px;
+}
+#footer {
+    background-color: #0d111a;
+    color: #eeeeee;
+    line-height: 18px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    padding-right: 10px;
+    width: 1040px;
+}
+.tt{
+    position:relative; 
+    font-weight: 600;
+} 
+.tt:before {
+    content: attr(data-text); 
+    position:absolute;
+    top:0%;
+    transform:translateY(-100%);
+    width:250px;
+    padding:10px;
+    border-radius:10px;
+    background:#000000;
+    color: #eeeeee;
+    text-align:center;
+    display:none;
+}
+.tt:hover:before {
+    display:block;
+  }
+
